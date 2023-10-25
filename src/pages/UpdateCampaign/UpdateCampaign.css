@@ -1,0 +1,12 @@
+.timestampInitial {
+	text-align: initial;
+}
+.updateCampaign1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quill-editor {
+	font-weight: normal;
+}

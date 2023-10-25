@@ -1,0 +1,56 @@
+.icons-check {
+	color: green;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	display: inline;
+}
+
+.icons-close {
+	color: red;
+	height: 32px;
+	width: 32px;
+	cursor: pointer;
+	display: inline;
+}
+
+.ant-input-affix-wrapper {
+	width: 100%;
+}
+
+.ant-btn {
+	background-color: rgb(211, 164, 255);
+	color: white;
+}
+
+.search-container {
+	display: flex;
+	padding: 10px;
+	background-color: #f0f0f0;
+}
+
+.search-input {
+	width: 20vw;
+	margin-left: auto;
+
+	@media screen and (max-width: 768px) {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 10px;
+	}
+}
+
+.search-input .ant-input-affix-wrapper,
+.search-input .ant-btn {
+	height: 6vh;
+}
+
+.cv-copy-icon {
+	font-size: 24px;
+	color: rgb(211, 164, 255);
+}
+
+.cv-copy-icon-before {
+	font-size: 24px;
+	color: rgb(211, 164, 255);
+}

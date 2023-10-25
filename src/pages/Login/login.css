@@ -1,0 +1,46 @@
+.login-container {
+	height: 100%;
+}
+
+.login-left {
+	background-image: url(https://devskiller.com/wp-content/uploads/2022/05/Candidate-selection.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.login-right.mobile {
+	background-image: url(https://devskiller.com/wp-content/uploads/2022/05/Candidate-selection.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.login-title {
+	text-align: center;
+}
+
+.login-title.mobile {
+	color: white;
+}
+
+.login-form.mobile {
+	background-color: white;
+	padding: 25px;
+	border-radius: 6px;
+}
+
+.login-form .ant-form-item-label > label {
+	font-weight: 500;
+}
+
+.login-form.mobile .ant-form-item-label > label {
+	height: 100% !important;
+}
+
+.login-btn {
+	padding-top: 14px;
+	margin-bottom: 14px;
+}
+
+.login-btn > .ant-row {
+	justify-content: center;
+}
