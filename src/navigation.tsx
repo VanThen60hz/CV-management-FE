@@ -36,7 +36,7 @@ export const navigation: AuthMenuItem[] = [
 		key: '/list-cv',
 		label: 'CV',
 		icon: <SnippetsOutlined />,
-		roles: [ROLE.SUPER_ADMIN, ROLE.ADMIN],
+		roles: [ROLE.SUPER_ADMIN, ROLE.ADMIN, ROLE.HR],
 	},
 
 	{

@@ -49,7 +49,7 @@ const privateRoutes: Route[] = [
 			{
 				path: '/list-cv',
 				element: <ListCv />,
-				roles: [ROLE.SUPER_ADMIN, ROLE.ADMIN],
+				roles: [ROLE.SUPER_ADMIN, ROLE.ADMIN, ROLE.HR],
 			},
 
 			{
@@ -90,7 +90,7 @@ const privateRoutes: Route[] = [
 			{
 				path: '/cv-detail/:id',
 				element: <CvDetail />,
-				roles: [ROLE.SUPER_ADMIN, ROLE.ADMIN],
+				roles: [ROLE.SUPER_ADMIN, ROLE.ADMIN, ROLE.HR],
 			},
 
 			{
